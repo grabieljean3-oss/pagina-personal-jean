@@ -235,36 +235,83 @@ logo
 .card a .fa-linkedin{
     color:#0A66C2 !important;
 }
-   
-    
 @media(max-width:900px){
-.contenedor{
-    grid-template-columns:1fr;
-    padding:20px;
-}
 
-.foto img{
-    width:100%;
-    max-width:300px;
-    margin:auto;
-    display:block;
-}
+    body{
+        padding:15px;
+    }
 
-.lado-izquierdo{
-    align-items:center;
-}
+    .titulo{
+        font-size:32px;
+        text-align:center;
+    }
 
-.contacto{
-    grid-template-columns:1fr;
-}
+    hr{
+        width:100%;
+    }
 
-.titulo{
-    font-size:32px;
-}
+    .contenedor{
 
-.tabla{
-    font-size:0.9rem;
-}
-```
+        grid-template-columns:1fr;
 
-}
+        padding:20px;
+
+        gap:20px;
+    }
+
+    .lado-izquierdo{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .foto{
+        text-align:center;
+    }
+
+    .foto img{
+
+        width:220px;
+
+        max-width:100%;
+
+        height:auto;
+    }
+
+    .contactos-laterales{
+
+        width:100%;
+    }
+
+    .contacto{
+
+        grid-template-columns:1fr;
+
+        gap:15px;
+
+        margin-bottom:35px;
+    }
+
+    .card{
+
+        width:100%;
+    }
+
+    .tabla{
+
+        display:block;
+
+        overflow-x:auto;
+
+        white-space:nowrap;
+    }
+
+    .descripcion{
+
+        font-size:1rem;
+
+        line-height:1.6;
+    }
