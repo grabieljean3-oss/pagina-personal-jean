@@ -235,3 +235,36 @@ logo
 .card a .fa-linkedin{
     color:#0A66C2 !important;
 }
+   
+    
+@media(max-width:900px){
+.contenedor{
+    grid-template-columns:1fr;
+    padding:20px;
+}
+
+.foto img{
+    width:100%;
+    max-width:300px;
+    margin:auto;
+    display:block;
+}
+
+.lado-izquierdo{
+    align-items:center;
+}
+
+.contacto{
+    grid-template-columns:1fr;
+}
+
+.titulo{
+    font-size:32px;
+}
+
+.tabla{
+    font-size:0.9rem;
+}
+```
+
+}
